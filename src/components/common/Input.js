@@ -11,6 +11,7 @@ const Input = ({ label, onChangeText, value }) => {
             <TextInput
                 value={value}
                 onChangeText={onChangeText}
+                autoCorrect={false}
                 style={inputStyle}
             />
         </View>
